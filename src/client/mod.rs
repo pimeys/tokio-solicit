@@ -15,6 +15,7 @@ mod tls;
 
 pub use self::client_wrapper::H2Client;
 pub use self::tls::TlsH2Stream;
+pub use self::connectors::H2ConnectorParams;
 
 /// An enum of errors that can arise due to the Tokio layer becoming out-of-sync from the http2
 /// session state.
